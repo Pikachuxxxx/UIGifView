@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		032E4FE1DDC4D4961588EC2AAFD61657 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7878DE60CB17C30744462EFB0B9BDD04 /* ReplaceMe.swift */; };
 		080749CDB124AE4A6AD4512C8542FA06 /* Pods-UIGifView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30654923F8118DB7B20FF700395A36B7 /* Pods-UIGifView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D9506696CE3875DEF45B05DD1B62E0D /* Pods-UIGifView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B58058738D1A9C53316C91B3646EF9BC /* Pods-UIGifView_Tests-dummy.m */; };
 		4EDFDA5F9A5826FEEC3C7FE71214E9BE /* UIGifView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5654164FD55F44AF549B4BCF73BD703D /* UIGifView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		674424292156F073DF3C6A1CED982326 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		7CE30BB605E51563A9462177B0316B90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		87972B9B223197C600C29233 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87972B9A223197C600C29233 /* UIImageView.swift */; };
 		92F59855BABD160C9AB3311EA72B3159 /* Pods-UIGifView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9206982FFE181C262FF6CC956B1E5BBC /* Pods-UIGifView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5C12FA9053C60A9E23B2BAAD1D907EE /* Pods-UIGifView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF24E6CE09E3F491997EFCA79BC4AFE9 /* Pods-UIGifView_Example-dummy.m */; };
 		C5ECDB9D0AEE0EE1C25F3A2F5CB7B26B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
@@ -52,7 +52,7 @@
 		5FC432C399471FB269AD3167F9AD4B36 /* Pods-UIGifView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIGifView_Tests-resources.sh"; sourceTree = "<group>"; };
 		68FA7204B725DCEEF48E738FDCAE03DA /* UIGifView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIGifView-dummy.m"; sourceTree = "<group>"; };
 		69A0999628D91C2446369156B62433BC /* UIGifView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIGifView.xcconfig; sourceTree = "<group>"; };
-		7878DE60CB17C30744462EFB0B9BDD04 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = UIGifView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		87972B9A223197C600C29233 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIImageView.swift; path = UIGifView/Classes/UIImageView.swift; sourceTree = "<group>"; };
 		90E697A1F16DDB64FB1E69A27EDDF3E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9206982FFE181C262FF6CC956B1E5BBC /* Pods-UIGifView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIGifView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -177,9 +177,9 @@
 		584EB8CB8DED71D98A1B10A5A63EF0CB /* UIGifView */ = {
 			isa = PBXGroup;
 			children = (
-				7878DE60CB17C30744462EFB0B9BDD04 /* ReplaceMe.swift */,
 				28F138E4AB7DDA56B74D059FE32D0804 /* Pod */,
 				F884B57D530A7CAB0C03475F41A24FB8 /* Support Files */,
+				87972B9A223197C600C29233 /* UIImageView.swift */,
 			);
 			name = UIGifView;
 			path = ../..;
@@ -325,6 +325,9 @@
 					4E4883FBB7856C387297D37F8802148B = {
 						LastSwiftMigration = 1010;
 					};
+					BD286BD88AA406305352E705B102FA48 = {
+						LastSwiftMigration = 1010;
+					};
 				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -375,7 +378,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				032E4FE1DDC4D4961588EC2AAFD61657 /* ReplaceMe.swift in Sources */,
+				87972B9B223197C600C29233 /* UIImageView.swift in Sources */,
 				D118B5FCA2EA7E321FEC81D09DDC2759 /* UIGifView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,6 +520,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 69A0999628D91C2446369156B62433BC /* UIGifView.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -537,6 +541,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -644,6 +649,7 @@
 			baseConfigurationReference = CD1324C597FA118C703981E2A8EE2242 /* Pods-UIGifView_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -666,6 +672,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -677,6 +684,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 69A0999628D91C2446369156B62433BC /* UIGifView.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -710,6 +718,7 @@
 			baseConfigurationReference = 16DB6841B80264DFD4D85F903434265A /* Pods-UIGifView_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -732,6 +741,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

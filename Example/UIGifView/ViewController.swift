@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import UIGifView
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var giftimelbl: UILabel!
+    @IBOutlet weak var Gifimg: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        Gifimg.loadGif(name: "tom&jerry")
+        giftimelbl.text = "The Gif Duration is :\(Gifimg.Giftime(name: "tom&jerry")) Seconds"
     }
 
     override func didReceiveMemoryWarning() {
