@@ -1,0 +1,16 @@
+PODS:
+  - UIGifView (0.1.0)
+
+DEPENDENCIES:
+  - UIGifView (from `../`)
+
+EXTERNAL SOURCES:
+  UIGifView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UIGifView: a80b63d46dad5d430514998ce929bffd29cbe1d7
+
+PODFILE CHECKSUM: 2a0dba151eeba2aa6ccf1079654425f1c5915ee4
+
+COCOAPODS: 1.5.3
