@@ -11,7 +11,13 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Demo
 ![](Demo.gif)
-
+## Usage
+just add a UIImage view and use the following methods .You can also the get the duration of the gif.
+```ruby
+(imageviewname).loadGif(name: String)
+(imageviewname).loadGif(asset: String) #load the gif from assets folder also
+(imageviewname).Giftime(name: String)
+```
 ## Installation
 
 UIGifView is available through [CocoaPods](https://cocoapods.org). To install
