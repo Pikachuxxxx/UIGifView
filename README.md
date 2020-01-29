@@ -29,7 +29,7 @@ pod 'UIGifView'
 
 ## Author
 
-DarkKnight29, phani.s2909@icloud.com
+Pikachuxxxx, phani.s2909@icloud.com
 
 ## License
 
